@@ -1,0 +1,231 @@
+
+
+	
+.PreHeader{
+		width:100%;
+		height:50px;
+		border: 0px solid black;
+		background-color:#ffffff;
+		}
+/*preheader contains facebook logo:flogo, instagram logo:ilogo, twitter logo:tlogo*/
+.Flogo{
+	  float:left;
+	  position:relative;
+	  margin-left:70%;
+	  top:7px;
+	}
+	  
+.Tlogo{
+	  float:left;
+	  position:relative;
+	  margin-left:5%;
+	  top:7px;
+	}
+
+.Ilogo{
+		  float:left;
+		  position:relative;
+		  top:7px;
+		  margin-left:5%;
+	  }
+	  /*End of preheader styling*/
+	  
+/*LogoAndMenu: Top Logo and navigation bar ie Menu Container*/
+.LogoAndMenu{
+		width:100%;
+		height:auto;
+		border:0px solid black;
+		display:flex;
+		background-image: linear-gradient(#2d3138,#727478, #e4e7ed);
+}
+.TopLogo{
+		width:150px;
+		height:100px;
+		margin-top:0px;
+		margin-left:3%;
+	}
+
+.MenuContent{
+		border:0px solid black;
+		margin-left:50px;
+		margin-top:4%;
+		height:50px;
+		width:75%;
+		flex:1;
+		transition: 0.7s;
+		
+	}
+	
+.Menu{
+		height:20px;
+		float:left;
+		padding-left:10px;
+		width:auto;
+		padding-top:8px;
+		font-family: Times New Roman;
+		font-style:normal;
+		font-size:1.1em;
+		font-weight:600;
+		text-align:center;
+		text-decoration:none;
+		
+    }
+	
+a{
+	color:white;
+}
+.Menu a:hover {
+  text-decoration:none;
+  background-color: #000000;
+  font-size:1.2em;
+  padding : 8px 8px 8px 8px;
+  text-align:center;
+  color:white;
+
+}
+/*end of Menu and logo styling*/
+
+/*.MenuPipe{
+		height:20px;
+		float:left;
+		text-align:center;
+		width:20px;
+		padding-top:3px;
+		font-size:1.7em;
+		color:black;
+}*/
+
+
+.gallery{
+	width:100%;
+	height:76%;
+	margin-top:15px;
+	border:1px solid black;
+	text-align:center;
+	color:black;
+}
+  
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+	  list-style-type:none;
+  }
+
+
+ 
+/*port:portfolio has different section for various work namely .PF1,.PF2,.PF3,.PF4*/
+.Upper_Port{
+	margin-top:20px;
+	width:100%;
+	height:60%;
+	border:0 solid black;
+	}
+
+.Portfolio{
+	text-align:center;
+	padding-top:5%;
+	font-family:verdana;
+	font-size:2em;
+	text-transform:capitalize;
+}
+
+
+.Upper_Port .PF1,.PF2,.PF3,.PF4,.Lower_Port .PF1,.PF2,.PF3,.PF4{
+	text-align:center;
+	height:75%;
+	width:22%;
+	padding-top:0px;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left:2.5%;
+	float:left;
+	border:1px solid black;
+	border-radius:6px;
+
+	
+}
+.P_object{
+	text-align: center;
+	text-transform:capitalize;
+	font-family:sans-serif;
+	font-size:1.5em;
+	padding-top:5px;
+}
+
+
+.Lower_Port{
+	margin-top:20px;
+	width:100%;
+	height:60%;
+	border:0 solid black;
+
+}
+
+
+body{
+	background-color:#FFFfFf;
+}
+	
+.footer{
+	height:35%;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:5px;
+	border:0px solid black;
+	color:black;
+	font-family:sans-serif;
+	background-image:url('../images/footer1_img.jpg');
+	 background-repeat: no-repeat;
+     background-size: 100% 100%;
+	 background-position:center;
+	 background-color: #e6ffe6;
+	 display:flex;
+}
+.Left h1{
+	padding-left:8%;
+	padding-bottom:none;
+	Font-family:sans-serif;
+	padding-top:0px;
+	
+}
+.Left ul{
+	list-style-type:none;
+	padding-top:0px;
+	margin-top:0px;
+	margin-left:7%;
+	text-decoration:bold;
+}
+
+.Left,.Right{
+	height:100%;
+	width:23%;
+	margin-top:0px;
+	border:0px solid black;
+	flex:1;	
+}
+.center{
+	height:auto;
+	width:40%;
+	float:left;
+	border:0px solid black;
+	
+}
+.Right h1{
+	padding-left:1%;
+}
+.Right ul{
+	list-style-type:none;
+	padding-left:2%;
+	padding-bottom:5px;
+	
+	
+	
+}
+.Center p{
+	padding-left:0px;
+	font-family:sans-serif;
+	text-decoration:none;
+	color: black;	
+	line-height:1.0;
+	
+	}

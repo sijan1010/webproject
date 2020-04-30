@@ -1,0 +1,58 @@
+.login,.signup{
+    margin-left:5%;
+    margin-top:3%;
+    border-radius:5px;
+    height:auto;
+    background-color: #f5f5f5;
+    width:20%;
+    border:1px solid black;
+    padding:1%;
+    text-size-adjust: 1.25em;
+    font-size:1.25em;
+    display:inline-block;
+
+}
+.signup{
+    margin-top:1%;
+}
+span{
+    margin-top:1%;
+    color:green;
+}
+.rememberpassword{
+    font-size:0.6em;
+    color:red;
+}
+body{
+    background-image:url('../images/cooperatehouse.jpg');
+    background-repeat:no-repeat;
+    background-size:100%,90%;
+    color:black;
+
+}
+
+.submit{
+    position:relative;
+    left:70%;
+    color:black;
+    font-size:1.0em;
+    text-size-adjust: 1.5em;
+    background-color:greenyellow;
+    border-radius: 3px;
+    padding:10px 10px 10px 10px;
+    border:1px solid black;
+    border-radius: 3px;
+}
+
+.input{
+    width:98%;
+    border:1px solid black;
+    border-radius:3px;
+    font-size:1.5em;
+    padding: 10px 15px;
+}
+.forget_password{
+    position:relative;
+    color:red;
+}
+
